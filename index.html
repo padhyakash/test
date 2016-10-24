@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Example</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet">
+
+    
+</head>
+<body>
+	<div class="leftbar">
+		<div style="text-align:center">
+			<img class="logo" src="image/logo.png">
+			<button class="btn-custom btn-green">CREATE SERVER</button>
+		</div>
+		<ul class="side-menu">
+			<li><a href="#"><i class="fa fa-tachometer"></i> DashBoard</a> </li>
+			<li class="active"><a href="#"><i class="fa fa-cloud"></i> Servers</a> </li>
+			<li><a href="#"><i class="fa fa-picture-o"></i> Images</a> </li>
+			<li><a href="#"><i class="fa fa-remove"></i> Volumes</a> </li>
+			<li><a href="#"><i class="fa fa-remove"></i> Snapshots</a> </li>
+			<li><a href="#"><i class="fa fa-remove"></i> Network</a> </li>
+			<li><a href="#"><i class="fa fa-lock"></i> Security</a> </li>
+			<li><a href="#"><i class="fa fa-hdd-o"></i> Storage</a> </li>
+		</ul>
+		<ul class="bottom-menu">
+			<li><a href="#"><i class="fa fa-hdd-o"></i> Support</a> </li>
+			<li><a href="#"><i class="fa fa-hdd-o"></i> Community</a> </li>
+			<li><a href="#"><i class="fa fa-file-text-o"></i> Documentation</a> </li>
+		</ul>
+	</div>
+	<div class="main">
+		<header>
+			<a class="dropdown-toggle head" data-toggle="dropdown">
+                <i class="fa fa-globe fa-fw iconcol"></i>Paris <i class="fa fa-caret-down iconcol"></i>
+            </a>
+			<div class="pull-right top">
+				<span class="gap"><strong>Basic Account</strong> <span class="textred">upgrade</span></span>
+				<i class="fa fa-refresh fa-fw ref"></i>
+				<a class="dropdown-toggle last" data-toggle="dropdown">
+                <span >Rune Juhl </span><i class="fa fa-caret-down iconcol"></i>
+            </a>
+			</div>
+		</header>
+		<section>
+			<div class="container">
+				<div class="toptitle">
+					<div class="line1">Create Your Server</div>				
+					<div class="line2"><b>&euro;11.99</b><span class="small">/month</span></div>
+					<div><a style="color:blue;font-size:0.8em;cursor:pointer">Price Details</a></div>
+				</div>
+				<div class="content">
+					<div class="inp-block">
+					    <label for="f1" class="custom-inp-label">Name</label>
+				    	<input type="text" class="form-control custom-inp" id="f1" placeholder="|scw-705f1e">
+				    	<i class="fa fa-check custom-inp-icon"></i>
+				  	</div>
+				  	<div class="inp-block">
+				  		<label class="custom-inp-label">Server Type</label>
+				  		<div class="row">
+				  			<div class="col-md-4">
+				  				<div class="server-block dotted">
+				  					<h1>C1</h1>
+				  					<div class="server-config">
+				  						<div class="items">4 ARM cores</div>
+				  						<div class="items">2 GB memory</div>
+				  					</div>
+				  					<p class="server-status">Temporary out of stock</p>
+				  				</div>
+				  			</div>
+				  			<div class="col-md-4">
+				  				<div class="server-block">
+				  					<h1>C2</h1>
+				  					<div class="server-config">
+				  						<div class="items">C2S-4 Dedicated x-86 64bit Cores,8GB memory</div>
+				  						<select class="custom-selection">
+				  							<option value="">More Power</label>
+				  							<option>asdasdasdas</option>
+				  							<option>asdasdasdasd</option>	
+				  						</select>	
+				  					</div>
+				  				</div>
+				  			</div>
+				  			<div class="col-md-4">
+				  				<div class="server-block dotted">
+				  					<h1>VC1</h1>
+				  					<div class="server-config">
+				  						<div class="items">VC1s-2x86 64bit cores, 2GB memory</div>
+				  						<select class="custom-selection">
+				  							<option value="">More Power</option>
+				  							<option>asdasdasdas</option>
+				  							<option>asdasdasdasd</option>	
+				  						</select>
+				  					</div>
+				  				</div>
+				  			</div>
+				  		</div>
+				  	</div>	
+				  	<div class="inp-block">
+				  		<label class="custom-inp-label">Choose an Image</label>
+				  		<div class="row">
+				  			<div class="col-md-6">
+				  				<div class="img-block">
+				  					<img class="ubuntu" src="image/ubuntu.png">
+				  					<span>Ubuntu Xenial (16.04 latest)</span>
+				  					<a href="#" class="btn-circle btn-green settings"><i class="fa fa-cog"></i></a>
+				  				</div>
+				  			</div>
+				  			<div class="col-md-6">
+				  				<div class="img-block dotted">
+				  					<button class="btn-square btn-green">IMAGEHUB</button>
+				  					<button class="btn-square btn-outlined">EXISTING SNAPSHOT</button>
+				  				</div>
+				  			</div>
+				  		</div>
+				  	</div>
+				  	<div class="inp-block">
+				  		<label class="custom-inp-label">Volumes <a style="font-size:0.6em;cursor:pointer;">more infos on volume types</a></label>
+				  		<div class="row volume-block">
+			  				<div class="col-md-3">
+			  					<p>50 GB</p>
+			  				</div>
+			  				<div class="col-md-3">
+			  					<p>LSSD</p>
+			  				</div>
+			  				<div class="col-md-3">
+			  					<p>Xb6_64-ubuntu-xenial-2016-05-20_09:25</p>
+			  				</div>
+			  				<div class="col-md-3">
+			  					<p>System Volume</p>
+			  				</div>
+				  		</div>
+				  		<div class="row volume-block">
+				  			<div class="col-md-3">
+				  				<div class="input-group manage-space" >
+				  					<span class="input-group-addon" onclick="if(parseInt(memory.value)>1) memory.value=parseInt(memory.value.split(' ')[0])-1+' GB'"><i class="fa fa-minus"></i></span>
+									<input type="text" class="form-control" value="50 GB" id="memory">
+									<span class="input-group-addon" onclick="memory.value=parseInt(memory.value.split(' ')[0])+1+' GB'"><i class="fa fa-plus"></i></span>
+								</div>
+							</div>
+							<div class="col-md-3">
+								<select >
+		  							<option value="">LSSD</option>
+		  							<option>asda</option>
+		  							<option>dada</option>	
+					  			</select>
+							</div>
+							<div class="col-md-3">
+								<input type="text" class="form-control custom-inp" id="f1" placeholder="volume">
+							</div>
+							<div class="col-md-3">
+								<button class="btn-square btn-green">ADD NEW VOLUME</button>
+							</div>
+				  		</div>
+				  	</div>
+				  	<div class="inp-block">
+				  		<div style="text-align:center">
+				  			<button class="btn-square btn-outlined">ADVANCED OPTIONS</button>
+				  		</div>
+				  	</div>
+				  	<div class="inp-block">
+				  		<div style="text-align:center">
+				  			<button class="btn-custom btn-green">OPTIONS</button>
+				  		</div>
+				  	</div>
+				</div>
+			</div>
+			</div>
+		</section>
+	</div>
+</body>	
+</html>
