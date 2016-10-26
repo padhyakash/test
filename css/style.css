@@ -292,7 +292,7 @@ header {
 }
 
 select.custom-selection {
-	border:1px solid #ccc;
+	border:1px solid #e5e5e5;
 	color:#555;
 	border-radius:3px;
 	background:#fff;
