@@ -296,7 +296,7 @@ select.custom-selection {
 	color:#555;
 	border-radius:3px;
 	background:#fff;
-	padding:3px 5px;
+	padding:5px 5px;
 	margin:0;
 	min-width:120px;
 	margin:20px;
@@ -350,6 +350,13 @@ ul.side-menu li a i{
 	margin:5px 0;
 	font-size: 0.8em;
 }
+.add-volume-block {
+	border:2px solid #e5e5e5;
+	position: relative;
+	color:#555;
+	padding:8px 0 6px 0;
+	margin:5px 0;
+}
 .manage-space {
 	width:140px;
 	padding: 10px 0;
@@ -380,7 +387,10 @@ ul.bottom-menu {
 	display: inline-block;
 	padding: 0;
 	margin:0;
-	padding:350px 25px;
+	padding:10px 25px;
+	position: absolute;
+	bottom:0;
+	left:0;
 }
 ul.bottom-menu li {
 	position: relative;
